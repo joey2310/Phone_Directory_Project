@@ -1,8 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import AddSubscriber from './AddSubcriber';
 import reportWebVitals from './reportWebVitals';
+import './common/common.css'
+
+ReactDOM.render(<AddSubscriber/>, document.getElementById('root'));
+registerServiceWorker();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
