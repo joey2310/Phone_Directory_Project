@@ -11,11 +11,16 @@ class App extends Component {
         name: "Shilpa Bhat",
         phone: "8888888888"
       },
+      {
+        id:2,
+        name: "Srishti",
+        phone: "9999999999"
+      },
     ]
 
    return (
-    <div>
-      <Header/>
+    <div className="component-container">
+      <Header heading="Phone Directory"/>
       <div className="component-body-container">
      <button className="custom-btn add-btn"> Add </button>
      <div className="grid-container heading-container">
