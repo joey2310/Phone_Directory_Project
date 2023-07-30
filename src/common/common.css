@@ -1,4 +1,4 @@
-.component-body-container{
+.component-body-container {
     padding: 20px;
 }
 
@@ -8,12 +8,12 @@
     margin-right: 10px;
     text-transform: uppercase;
     width: 80px;
-    font-size: 15px;
+    font-size: 0.9rem;
     cursor: pointer;
     outline: none;
-    background: #d3d3d3;
 }
-.add-btn{
+
+.add-btn {
     background: #7ab97a;
     color: #fff;
 }
